@@ -7,7 +7,7 @@ What is a JDK composed of? Define each components?
 Answer:
 
 What is an IDE?
-Answer:
+Answer: An integrated development environment.
 
 What are some of the most popular Java IDEs available in the market?
 Answer:
