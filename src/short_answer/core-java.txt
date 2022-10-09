@@ -1,67 +1,108 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:Programming languagesare one kind of computer language and are used in computer programming to impliment
+algorithms.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer:JDK (Java development kit) is a software development environment used for developing
+java applicationsand applets.
+JRE--Java runtime environment
+JVM--Java virtual machine.
 
 What is an IDE?
 Answer: An integrated development environment.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer:Airlines reservation system
+Data visualization software
+Electricity billing system
+e-Healthcare management system
+Email client software
+Liberary management system.
 
 Explain the entire java life cycle.
-Answer:
+Answer:code/text editor-java source file-java compiler-class(bytecode file)-class loader-bytecode
+varifier-interpreter.
 
 What is a class?
-Answer:
+Answer:A class is a group of objects that share common properties and behaviours.
 
 What is an object?
-Answer:
+Answer:An object is a member(also called an instance)of a java class.Each object has an idetity,
+a behaviour and a state.
 
 What is the entry point of a Java project?
-Answer:
+Answer:public static void main(String[]args)
 
 Why is the main() method static?
-Answer:
+Answer:The main()method is static so that JVM can invoke it without instantiating
+the class. This also saves the unnecessarys westage of memory which would have been
+ used by the object declared only for calling themain()method by JVM.
 
 Which class is the superclass of all classes?
 Answer:
 
 What is difference between path and classpath variables?
-Answer:
+Answer:Path is a set for java tools in java programes like java and JAVC
+Which is used to compile the code .
+Whereas CLASSPATH  IS  used by System  or Application  class loader  to locate and load
+ compile java by bytecodes stored  in the class file.
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer:An abstract class allows to creat functionality that subclass
+can impliment or override
+An interface only allows to define functionality ,not impliment it .
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 Answer:
 
 What is Access Modifier?
-Answer:
+Answer:Access modifiers are keywords in object oriented languages that set the accessibitility of classes,methods,
+and other members.
 
 What is OOP? Define each OOP concept.
-Answer:
+Answer:OOP-Object oriented programming is a computer programming model that organizes
+ software design around data or objects rather then functions and logic.
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer:Java pacage is the mechanism to organize the java classes by
+grouping them .Java lang pacage is imported by default and we dont
+needto import any class from this pacage explicitly.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer:API- Aplication Programming Interface is defined as a software  code
+that helps two different softwares to communicates and changing data with each others.
+Different types of API they are as follows
+OPEN API
+PARTNER API
+INTERNAL API
+HIGH LEVEL API
+LOW LAVEL API
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer:Java does not support multiple inheritances in classes
+because it can lead to diamond problem and rather then providing some complex way
+to solve it ,there are better ways through which we can aciieve the same result
+as a multiple inheritances.
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:Method overloading is a form of polymorphism in OOP .Polymorphism allows object or method
+ to act in different ways according to the means in which they are used .
+ There are two types of Polimorphism
+ 1.Method Overloading
+ 2.Method Overriding.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer:The try -catch is the simpliest method of handling exceptions .
+put the code you want to run in the try block and any java exceptios
+that the code throws are caught by one or more catch block.The
+method will catch any type of java excepyions that get thrown .
 
 What is static keyword? When and how do we use it?
-Answer:
+Answer:The Static keywords in java is used to share the same variable or method
+of a given class .The users can apply static keywords with variables methods, blocks
+and nested classes.
 
 What is final keyword? When and how do we use it?
 Answer:
@@ -85,97 +126,146 @@ What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:
 
 What does JVM stand for?
-Answer:
+Answer:JVM -Java virtual machine or JVM loads varifies
+and executes java bytecodes
 
 Is JVM platform independent?
-Answer:
+
+Answer:JVM is a platform dependent.
 
 What version of Java are you using?
-Answer:
+Answer:The Java version can be found in the java control panel.
+Under the general tabin the java control panel the version is
+available through the about section.
 
 What does JAR stand for?
-Answer:
+Answer:JAR stands for JAVA ARchive  ,its a file formate based on the popular zip file format and is used
+ for aaggregating many files into one.
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:JDK-java development kit
+JVM-java virtual machine .
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:JRE identifies all the helpful class libraries needed
+for execution.
+While JVM is a subclass of JRE that decodes the bytecode
+into machine language and other minor tasks.
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer:Compile time is the period  when the programming code(such as c#,
+java,C,Python) is converted to the machine code.
+Runtime is the period of time when a programme is running and generally
+ occures after compile time.
 
 What is heap?
-Answer:
+Answer:Aheap is a specialized tree based data structere that
+satisfied the heap property
 
 How does Java manage its memory?
-Answer:
+Answer:Java does memory automatically .Java uses an automatic memory
+management  system called garbage collector.
 
 What is the difference between String, StringBuffer and StringBuilder?
 Answer:
 
 What is Singleton class?
-Answer:
+Answer:The Singleton pattern is a software design pattern
+that restricts the instalationsof a class to one  "single"
+instance.
 
 What is Serialization and Deserialization?
-Answer:
+Answer:Serialization is the process of converting n object into a
+stream of bytes to store the object or transmit it to memory,
+a data base  or a file .Its main purpose is to save the state
+of an object in order to be able to recreate  it when needed.
+The reverse process is called Deserialization.
 
 Explain the difference between While and Do..While loops?
 Answer:
 
 What is Enum?
-Answer:
+Answer:An Enumerated type is a datatype consisting of a sat of  named values called elements ,
+members ,enumerl or enumerators of the type .The enumerator names are usually idetifires
+that behave as constant in the language.
 
 What is Iterator?
-Answer:
+Answer:An Iterator is an object that can be used to loop through collections, like
+ArrayList and HashSet.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:Int is primitive data types which takes 32 bits(4 bytes)to store
+on the other hand Integer is an object  which takes 128 bits(16 bytes).
 
 Why are Strings considered to be immutable in Java?
 Answer:
 
 What is constructor chaining in Java?
-Answer:
+Answer:Constructor chaining in java is the process of calling a sequences
+of constructors ,it can be used two ways
+By using this()keywords for chaining constructors in the same class
+By using super()keywords for chaining constructors from the perent class.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer:Serial garbage collector  uses a single thread for garbage collection process
+while the parallel garbage collector  uses multiple threads for the garbage collection.
 
 What does JIT stands for?
-Answer:
+Answer:Just - In - Time.
 
 Explain the process of Java garbage collection?
-Answer:
+Answer:Java garbage collection is the process by which java
+programs performs automatic memory management JVM machine do the work for that.
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer:No ,not at all.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer:JAVA heap space is used throughout the application
+but stack is used only for the method actually heap memory is used by all the parts
+ of the application where as stack memory is used only by one thread of execution.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer:Reflection is a feature in java programming language
+It is used to describe code ehichis able to inspect other code
+in the same system(for itself).
 
 What is multithreading in Java?
-Answer:
+Answer:Multithreading refers to a process of executing two or more
+threads simultaneously for maximum utilization of the CPU.
 
 What is synchronization in Java?
-Answer:
+Answer:Synchorization in java is the capability to control the access of multiple
+ threads to any shared resource.
 
 What is a Framework?
-Answer:
+Answer:A basic conceptional structure(as of ideas).
 
 What are the testing Frameworks available in Java?
 Answer:
+TestNG
+JUnit
+Selenium
+Mockito.
+
+
 
 What are jUnit and testNG?
-Answer:
+Answer:JUnit is an open source frame work used to trigger and wtrite test
+TestNG IS a java based frame worked that is an upgraded option for running tests.
 
 What are the dependencies for this project?
 Answer:
+Logical dependency
+Resource dependencies
+Cross term dependencies
+External dependencies
+Internal dependencies.
 
 What is dependency injection in Java?
-Answer:
+Answer:Dependency injection (DI) IS the concept in which object
+get other required  objects from outside.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:Static binding uses Type infomation for binding while Dynamic bindings uses
+object Object to resolve binding.
