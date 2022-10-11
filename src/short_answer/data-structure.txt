@@ -2,42 +2,85 @@
 
 Why do we need data structure?
 Answer:
+We need data structure for following :efficiency,reusability,and invisibility.
+Data structure provides  a means of organizing ,managing and storing data
+efficiantly.It also includs the collection of data as well as the operations
+ that can be applied to that data.
 
 What are the various operations that can be performed on different data structures?
 Answer:
+There are different data structures used for the storage of data .It can also be
+define as a mathematical or logical model of a particular organization of data
+items  .The representation of particular data structure  in the main memory of a
+computer is called as storage structure .For example _____________
+Array,Stack,Queue,Tree,Graph etc.
 
 When would we use data structures in the real world?
 Answer:
+All the structure in data structures are used in real time applications.
+ For example stacks are used internally by each compiler  to save the return
+memory address before invoking any function.Similarly  queues are used in operating
+ system to keep the track of the process that need CPU time.
 
 What is an Array?
 Answer:
+An Array is a collection of elements of the same type placed in contiguous
+memory locations that can be individually referenced by using an index to a
+unique identifier
 
 What is the difference between Array and ArrayList?
 Answer:
+Array is a fixed length data structure
+Arraylist is a variable  length collection class.
+We cannot change length of Array once created in java
+but Arraylist can be changed
 
 What is a LinkedList?
 Answer:
+Linked List is a part of the collection frame work present in java .util package
 
 How is an Array different from LinkedList?
 Answer:
+An Array is a collection elements of a similar data type
+Linked list is an ordered collection of elementsof the same type
+in which each elements is connected to the next using pointers.
+Array elements can be accessed randomly using the array index
+but random accessing is not possible in linked list.
 
 What is a Queue?
 Answer:
+A queue is a data structure which worked exactly like how a real life
+queue works.When you insert something into the data structure the new
+elements is added atb the end of it .On the other hand when you take something
+out of it the elements at the front is given to you..That means the elements
+ comes out in the order they entered.It is called First  Come First  Out(FIFO)
+ Structure
 
 What is a Stack (referring to data structures)?
 Answer:
+Stack is a linear data structure which follows a perticular
+order in which the operations are performed
 
 What is FIFO and LIFO?
 Answer:
+FIFO means First In First  Out
+LIFO means Last In First Oot
 
 Explain Big O Notation?
 Answer:
+Big O notation is a way to measure an algorithm's effienciency
+It measures the time it takes to run your function as the input grows
+or in other words how well does the function scale
 
 What is the best case to search an element from an array?
 Answer:
+The best case to search an element is 0(1)
+when element is first or last element  in the array
 
 What is the worst case to search an element from an array?
 Answer:
+The wrost case performance is whenthe search item appears
+at the end of the list or not at all.
 
 Describe what a tree data structure is?
 Answer:
