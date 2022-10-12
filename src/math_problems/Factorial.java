@@ -12,7 +12,27 @@ public class Factorial {
 
     public static void main(String[] args) {
 
+        System.out.println(factorial(7));
+        System.out.println(getFactorialForLoop(5));
 
     }
 
+    static int factorial (int n) {
+        if (n == 0) {
+            return 1;
+        }
+            return n * factorial(n - 1);
+        }
+public static int getFactorialForLoop(int n) {
+    int result = 1;
+    if (n > 1) {
+        for (int i = 1; i <= n; i++) {
+            result = result * i;
+        }
+        return result;
+    } else {
+        System.out.println("n has to be positive");
+        return result;
+    }
 }
+    }
