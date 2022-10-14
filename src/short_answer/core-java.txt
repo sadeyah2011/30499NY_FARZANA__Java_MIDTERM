@@ -41,7 +41,7 @@ the class. This also saves the unnecessarys westage of memory which would have b
  used by the object declared only for calling themain()method by JVM.
 
 Which class is the superclass of all classes?
-Answer:
+Answer:Object
 
 What is difference between path and classpath variables?
 Answer:Path is a set for java tools in java programes like java and JAVC
@@ -55,7 +55,8 @@ can impliment or override
 An interface only allows to define functionality ,not impliment it .
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer:No you cannot . To do so you needto let the interface or Abstract  method
+to use an abstruct we use extends .An interface uses impliments.
 
 What is Access Modifier?
 Answer:Access modifiers are keywords in object oriented languages that set the accessibitility of classes,methods,
@@ -105,26 +106,41 @@ of a given class .The users can apply static keywords with variables methods, bl
 and nested classes.
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer:Final is used for classes,methods ot  attributes .It makes them non changable
+In classes it prevents inheritance. In methods it prevents overriding. For  attributes,
+it prevents reassignment
 
 Explain the difference between final, finally and finalize?
 Answer:
 
 What is a constructor?
 Answer:
+A constructor instantiates objects of the class it belongs to  .Whenever an object
+of a class is created , the constructor  allows it to be created and asks for arguments to be passed
+if the constructor requires so
 
 Can we have multiple constructors in a class?
 Answer:
+We can only have one  constructor with in a class.We can use constructor overloading
+to allow for different parameters to be passed when instantiating an objectof a class
 
 If we don't have a constructor declared, what is called during the object creation?
 Answer:
+The default constructor
+
 
 What is "this" keyword in Java? When would we use it?
 Answer:
+This refers to the current object in a method or constructor.We use it usually
+when we want to eliminate confusion between class attribute and perameter with
+the same name .It typically used for assigning said argument to the class attribute.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
 Answer:
-
+Super refer to the super class. We can use super when performing method overriding to
+call the original implimentation of the methods from the super class .We can also use
+it to pass any shared perameters of the constructor of the subclass to the constructor
+ of the super classs.
 What does JVM stand for?
 Answer:JVM -Java virtual machine or JVM loads varifies
 and executes java bytecodes
