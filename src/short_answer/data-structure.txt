@@ -84,30 +84,60 @@ at the end of the list or not at all.
 
 Describe what a tree data structure is?
 Answer:
+Atree is non leaner and stores data hierarchically within nodes .Each
+nodes of a tree stores  a value and a list of referance to another nodes .
 
 Describe what a graph data structure is?
 Answer:
+A Graph is non linear and consists of vertices and edges.
+The vertices are also known as modes and edges are the
+lines that connect any two modes  .They are used to represents
+network.
 
 What is the difference between the HashTable and HashMap?
 Answer:
+A Hash map  is non synchronized, so it can't be shared between multiple
+threads,whereas a hash table can support multiple threads .A hash map allows
+one null key and multiple null values where as a hashtable  don't allows any
+null key or value.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
 Answer:
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
 Answer:
+It's exceptions that gets thrown when trying to access any elements
+not within the given range of an array.
 
 What are the different ways of copying an array into another array?
 Answer:
+You can use a for loop and assign each elements from an array to another
+array. You can also use the object .clone()method ,System arraycopy() method
+or Arrays.copyof()method
 
 What is DFS and BFS?
 Answer:
+DFS stands for Depth First Search and BFS Stands for Breath First Search
+They are two simpliest graph search algorithms .BFS walks through all needs
+of the same level before moving on the next level. DFS  begins at the root mode
+and proceeds through the modes as for a possible untill we reach at the mode
+that has no unvisited nearby modes .
 
 What is Recursion?
-Answer:
+Answer:Recursions is the technique of making a function call itself
 
 What are linear and non-linear data Structures?
 Answer:
+Linear and Non leaner just refers to how the elements within a collection
+are stored .Leaner means the elements are stored sequentially and are
+attached to its adjacent elements .There is only one level.
+Arrays ,Stacks, Queues, Linkedlists and sometimes hash maps are linear
+Non leaner data structures are attached hierarchically and can have
+multiple levels . Trees and Graphs are Non leaner.
 
 Outline different sorting algorithms and their time complexities:
-
+Selection Sort -o(n^2)
+Bubble Sort -o(n^2)
+Insertation  Sort -o(n^2)
+Heap Sort -o(n long(n))
+Bucket Sort o(n+k)
