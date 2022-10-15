@@ -183,7 +183,13 @@ Answer:Java does memory automatically .Java uses an automatic memory
 management  system called garbage collector.
 
 What is the difference between String, StringBuffer and StringBuilder?
-Answer:
+Answer:String  is a type that holds a sequence of multiple chracters.
+String Buffer is like a string but can be modified.Its length and content
+can be changed through certain methods call .
+String Builder is a similer to string buffer but it better when being
+used by a single thread .String Buffer supports being used by a multiple
+threads because its synchronized.
+
 
 What is Singleton class?
 Answer:The Singleton pattern is a software design pattern
@@ -198,7 +204,10 @@ of an object in order to be able to recreate  it when needed.
 The reverse process is called Deserialization.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:A while loop checks to see if the given condition is true and then executes
+ whatever is contained in its code block.It then increments once the loop complete
+ once. A do while  loop executes the code first , then checks to see if the
+ condition is true.
 
 What is Enum?
 Answer:An Enumerated type is a datatype consisting of a sat of  named values called elements ,
@@ -215,6 +224,8 @@ on the other hand Integer is an object  which takes 128 bits(16 bytes).
 
 Why are Strings considered to be immutable in Java?
 Answer:
+A string is set in length  and content . It can't  be modified  when
+its created.
 
 What is constructor chaining in Java?
 Answer:Constructor chaining in java is the process of calling a sequences
