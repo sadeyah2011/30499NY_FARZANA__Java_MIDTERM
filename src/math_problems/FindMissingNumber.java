@@ -10,25 +10,25 @@ public class FindMissingNumber {
     public static void main(String[] args) {
         int[] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
     }
-
-    static void printMissingElements(int arr[], int
-                                     int diff = arr[0] - 0;
-    for(
-    int i = 0;
-    i<N;i++)
-            if(arr[i]-i !=diff)
-            while(diff<arr[i]-i)
-
-    {
-        System.out.print((i + diff) + " ");
-        diff++;
-    }
-}
-}
-
-
-    }
-
-
-
+//
+//    static void printMissingElements(int arr[], int
+//                                     int diff = arr[0] - 0;
+//    for(
+//    int i = 0;
+//    i<N;i++)
+//            if(arr[i]-i !=diff)
+//            while(diff<arr[i]-i)
+//
+//    {
+//        System.out.print((i + diff) + " ");
+//        diff++;
+//    }
+//}
+//}
+//
+//
+//    }
+//
+//
+//
 }

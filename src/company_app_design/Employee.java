@@ -24,16 +24,4 @@ public interface Employee {
     int calculateSalary();
 
     void benefits();
-
-    int employeeId();
-
-    String employeeName();
-
-    void assignDepartment();
-
-    int calculateSalary();
-
-    void benefits();
-
 }
-int employeeId();
